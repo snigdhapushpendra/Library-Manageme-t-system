@@ -1,0 +1,53 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+#login, #dashboard {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    background: #ff5e62;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff3b4a;
+}
+
+#book-list {
+    margin-top: 20px;
+    background: white;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+}
